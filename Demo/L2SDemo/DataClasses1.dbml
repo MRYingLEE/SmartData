@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="XCRM_14.2" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\XCRM_14.2.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="L2SDemo.Properties.Settings" SettingsPropertyName="XCRM_14_2ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ActivityTargets" Member="ActivityTargets">
+    <Type Name="ActivityTarget">
+      <Column Name="ActivityTargetId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PreferredContactMethod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreditLimit" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CreditHold" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AccountName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="WebSite" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NumberOfEmployees" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SICCode" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AnnualRevenue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OtherPhone" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MobilePhone" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OfficePhone" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HomePhone" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Discount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="DiscountPercent" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ID" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DueDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Rating" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Status2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EstimatedRevenue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ActualRevenue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Probability" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CloseDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EstimatedCloseDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RevenueIsUserProvided" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DeliveryDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShippingMethod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Status3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CancelDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status4" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EffectiveTo" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EffectiveFrom" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DueBy" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ClosedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeliveryDate1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShippingMethod1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Topic" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Status5" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedOn1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="LeadSource" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="WebSite1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AnnualRevenue1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="NumberOfEmployees1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SICCode1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PreferredContactMethod1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Email1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OtherPhone1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MobilePhone1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OfficePhone1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HomePhone1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Fax1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DeliveryDate2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShippingMethod2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeliveryDate3" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShippingMethod3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Photo" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Email2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OtherPhone2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MobilePhone2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OfficePhone2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HomePhone2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Fax2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Discriminator" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="Customer_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Owner_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PotentialCustomer_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Customer_ActivityTargetId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BackRefOpportunity_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BillToAddress_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ShipToAddress_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceOpportunity_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BackRefCustomer_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceOrder_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Opportunity_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceOpportunity_ActivityTargetId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BackRefCustomer_ActivityTargetId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BackRefOpportunity_ActivityTargetId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceQuote_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceOpportunity_ActivityTargetId2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BillToAddress_ID1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ShipToAddress_ID1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Owner_ID1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PrimaryAddress_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceLead_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BillToAddress_ID2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ShipToAddress_ID2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceLead_ActivityTargetId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BillToAddress_ID3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMOpportunity_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMOpportunity_ActivityTargetId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ShipToAddress_ID3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceLead_ActivityTargetId2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Owner_ID2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Account_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Person_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMContact_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PrimaryAddress_ID1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMContact_ActivityTargetId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceLead_ActivityTargetId3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PrimaryContact_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMAccount_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PrimaryAddress_ID2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMAccount_ActivityTargetId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceLead_ActivityTargetId4" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ActivityTarget_ActivityTarget" Member="ActivityTargets" ThisKey="ActivityTargetId" OtherKey="Account_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget1" Member="ActivityTargets1" ThisKey="ActivityTargetId" OtherKey="BackRefCustomer_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget2" Member="ActivityTargets2" ThisKey="ActivityTargetId" OtherKey="BackRefCustomer_ActivityTargetId1" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget3" Member="ActivityTargets3" ThisKey="ActivityTargetId" OtherKey="BackRefOpportunity_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget4" Member="ActivityTargets4" ThisKey="ActivityTargetId" OtherKey="BackRefOpportunity_ActivityTargetId1" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget5" Member="ActivityTargets5" ThisKey="ActivityTargetId" OtherKey="CRMAccount_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget6" Member="ActivityTargets6" ThisKey="ActivityTargetId" OtherKey="CRMAccount_ActivityTargetId1" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget7" Member="ActivityTargets7" ThisKey="ActivityTargetId" OtherKey="CRMContact_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget8" Member="ActivityTargets8" ThisKey="ActivityTargetId" OtherKey="CRMContact_ActivityTargetId1" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget9" Member="ActivityTargets9" ThisKey="ActivityTargetId" OtherKey="CRMOpportunity_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget10" Member="ActivityTargets10" ThisKey="ActivityTargetId" OtherKey="CRMOpportunity_ActivityTargetId1" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget11" Member="ActivityTargets11" ThisKey="ActivityTargetId" OtherKey="Customer_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget12" Member="ActivityTargets12" ThisKey="ActivityTargetId" OtherKey="Customer_ActivityTargetId1" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget13" Member="ActivityTargets13" ThisKey="ActivityTargetId" OtherKey="Opportunity_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget14" Member="ActivityTargets14" ThisKey="ActivityTargetId" OtherKey="PotentialCustomer_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget15" Member="ActivityTargets15" ThisKey="ActivityTargetId" OtherKey="PrimaryContact_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget16" Member="ActivityTargets16" ThisKey="ActivityTargetId" OtherKey="SourceLead_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget17" Member="ActivityTargets17" ThisKey="ActivityTargetId" OtherKey="SourceLead_ActivityTargetId1" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget18" Member="ActivityTargets18" ThisKey="ActivityTargetId" OtherKey="SourceLead_ActivityTargetId2" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget19" Member="ActivityTargets19" ThisKey="ActivityTargetId" OtherKey="SourceLead_ActivityTargetId3" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget20" Member="ActivityTargets20" ThisKey="ActivityTargetId" OtherKey="SourceLead_ActivityTargetId4" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget21" Member="ActivityTargets21" ThisKey="ActivityTargetId" OtherKey="SourceOpportunity_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget22" Member="ActivityTargets22" ThisKey="ActivityTargetId" OtherKey="SourceOpportunity_ActivityTargetId1" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget23" Member="ActivityTargets23" ThisKey="ActivityTargetId" OtherKey="SourceOpportunity_ActivityTargetId2" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget24" Member="ActivityTargets24" ThisKey="ActivityTargetId" OtherKey="SourceOrder_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_ActivityTarget25" Member="ActivityTargets25" ThisKey="ActivityTargetId" OtherKey="SourceQuote_ActivityTargetId" Type="ActivityTarget" />
+      <Association Name="ActivityTarget_Event" Member="Events" ThisKey="ActivityTargetId" OtherKey="Regarding_ActivityTargetId" Type="Event" />
+      <Association Name="ActivityTarget_LeadHistoryRecord" Member="LeadHistoryRecords" ThisKey="ActivityTargetId" OtherKey="CRMLead_ActivityTargetId" Type="LeadHistoryRecord" />
+      <Association Name="ActivityTarget_Note" Member="Notes" ThisKey="ActivityTargetId" OtherKey="CRMAccount_ActivityTargetId" Type="Note" />
+      <Association Name="ActivityTarget_Note1" Member="Notes1" ThisKey="ActivityTargetId" OtherKey="CRMContact_ActivityTargetId" Type="Note" />
+      <Association Name="ActivityTarget_Note2" Member="Notes2" ThisKey="ActivityTargetId" OtherKey="CRMInvoice_ActivityTargetId" Type="Note" />
+      <Association Name="ActivityTarget_Note3" Member="Notes3" ThisKey="ActivityTargetId" OtherKey="CRMLead_ActivityTargetId" Type="Note" />
+      <Association Name="ActivityTarget_Note4" Member="Notes4" ThisKey="ActivityTargetId" OtherKey="CRMOpportunity_ActivityTargetId" Type="Note" />
+      <Association Name="ActivityTarget_Note5" Member="Notes5" ThisKey="ActivityTargetId" OtherKey="CRMOrder_ActivityTargetId" Type="Note" />
+      <Association Name="ActivityTarget_Note6" Member="Notes6" ThisKey="ActivityTargetId" OtherKey="CRMQuote_ActivityTargetId" Type="Note" />
+      <Association Name="ActivityTarget_SaleItem" Member="SaleItems" ThisKey="ActivityTargetId" OtherKey="SaleBase_ActivityTargetId" Type="SaleItem" />
+      <Association Name="ActivityTarget_ActivityTarget" Member="ActivityTarget1" ThisKey="Account_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget1" Member="ActivityTarget2" ThisKey="BackRefCustomer_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget2" Member="ActivityTarget3" ThisKey="BackRefCustomer_ActivityTargetId1" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget3" Member="ActivityTarget4" ThisKey="BackRefOpportunity_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget4" Member="ActivityTarget5" ThisKey="BackRefOpportunity_ActivityTargetId1" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget5" Member="ActivityTarget6" ThisKey="CRMAccount_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget6" Member="ActivityTarget7" ThisKey="CRMAccount_ActivityTargetId1" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget7" Member="ActivityTarget8" ThisKey="CRMContact_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget8" Member="ActivityTarget9" ThisKey="CRMContact_ActivityTargetId1" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget9" Member="ActivityTarget10" ThisKey="CRMOpportunity_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget10" Member="ActivityTarget11" ThisKey="CRMOpportunity_ActivityTargetId1" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget11" Member="ActivityTarget12" ThisKey="Customer_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget12" Member="ActivityTarget13" ThisKey="Customer_ActivityTargetId1" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget13" Member="ActivityTarget14" ThisKey="Opportunity_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget14" Member="ActivityTarget15" ThisKey="PotentialCustomer_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget15" Member="ActivityTarget16" ThisKey="PrimaryContact_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget16" Member="ActivityTarget17" ThisKey="SourceLead_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget17" Member="ActivityTarget18" ThisKey="SourceLead_ActivityTargetId1" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget18" Member="ActivityTarget19" ThisKey="SourceLead_ActivityTargetId2" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget19" Member="ActivityTarget20" ThisKey="SourceLead_ActivityTargetId3" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget20" Member="ActivityTarget21" ThisKey="SourceLead_ActivityTargetId4" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget21" Member="ActivityTarget22" ThisKey="SourceOpportunity_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget22" Member="ActivityTarget23" ThisKey="SourceOpportunity_ActivityTargetId1" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget23" Member="ActivityTarget24" ThisKey="SourceOpportunity_ActivityTargetId2" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget24" Member="ActivityTarget25" ThisKey="SourceOrder_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_ActivityTarget25" Member="ActivityTarget26" ThisKey="SourceQuote_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="User_ActivityTarget" Member="User" ThisKey="Owner_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+      <Association Name="User_ActivityTarget1" Member="User1" ThisKey="Owner_ID1" OtherKey="ID" Type="User" IsForeignKey="true" />
+      <Association Name="User_ActivityTarget2" Member="User2" ThisKey="Owner_ID2" OtherKey="ID" Type="User" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget" Member="Address" ThisKey="BillToAddress_ID" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget1" Member="Address1" ThisKey="BillToAddress_ID1" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget2" Member="Address2" ThisKey="BillToAddress_ID2" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget3" Member="Address3" ThisKey="BillToAddress_ID3" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget4" Member="Address4" ThisKey="PrimaryAddress_ID" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget5" Member="Address5" ThisKey="PrimaryAddress_ID1" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget6" Member="Address6" ThisKey="PrimaryAddress_ID2" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget7" Member="Address7" ThisKey="ShipToAddress_ID" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget8" Member="Address8" ThisKey="ShipToAddress_ID1" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget9" Member="Address9" ThisKey="ShipToAddress_ID2" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Address_ActivityTarget10" Member="Address10" ThisKey="ShipToAddress_ID3" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="People_ActivityTarget" Member="People" ThisKey="Person_ID" OtherKey="ID" Type="People" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ChangePasswordOnFirstLogon" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="StoredPassword" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Discriminator" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="Person_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="User_ActivityTarget" Member="ActivityTargets" ThisKey="ID" OtherKey="Owner_ID" Type="ActivityTarget" />
+      <Association Name="User_ActivityTarget1" Member="ActivityTargets1" ThisKey="ID" OtherKey="Owner_ID1" Type="ActivityTarget" />
+      <Association Name="User_ActivityTarget2" Member="ActivityTargets2" ThisKey="ID" OtherKey="Owner_ID2" Type="ActivityTarget" />
+      <Association Name="User_Event" Member="Events" ThisKey="ID" OtherKey="Owner_ID" Type="Event" />
+      <Association Name="User_UserRole" Member="UserRoles" ThisKey="ID" OtherKey="User_ID" Type="UserRole" />
+      <Association Name="People_User" Member="People" ThisKey="Person_ID" OtherKey="ID" Type="People" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Addresses" Member="Addresses">
+    <Type Name="Address">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Street1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Street2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Zip" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Address_ActivityTarget" Member="ActivityTargets" ThisKey="ID" OtherKey="BillToAddress_ID" Type="ActivityTarget" />
+      <Association Name="Address_ActivityTarget1" Member="ActivityTargets1" ThisKey="ID" OtherKey="BillToAddress_ID1" Type="ActivityTarget" />
+      <Association Name="Address_ActivityTarget2" Member="ActivityTargets2" ThisKey="ID" OtherKey="BillToAddress_ID2" Type="ActivityTarget" />
+      <Association Name="Address_ActivityTarget3" Member="ActivityTargets3" ThisKey="ID" OtherKey="BillToAddress_ID3" Type="ActivityTarget" />
+      <Association Name="Address_ActivityTarget4" Member="ActivityTargets4" ThisKey="ID" OtherKey="PrimaryAddress_ID" Type="ActivityTarget" />
+      <Association Name="Address_ActivityTarget5" Member="ActivityTargets5" ThisKey="ID" OtherKey="PrimaryAddress_ID1" Type="ActivityTarget" />
+      <Association Name="Address_ActivityTarget6" Member="ActivityTargets6" ThisKey="ID" OtherKey="PrimaryAddress_ID2" Type="ActivityTarget" />
+      <Association Name="Address_ActivityTarget7" Member="ActivityTargets7" ThisKey="ID" OtherKey="ShipToAddress_ID" Type="ActivityTarget" />
+      <Association Name="Address_ActivityTarget8" Member="ActivityTargets8" ThisKey="ID" OtherKey="ShipToAddress_ID1" Type="ActivityTarget" />
+      <Association Name="Address_ActivityTarget9" Member="ActivityTargets9" ThisKey="ID" OtherKey="ShipToAddress_ID2" Type="ActivityTarget" />
+      <Association Name="Address_ActivityTarget10" Member="ActivityTargets10" ThisKey="ID" OtherKey="ShipToAddress_ID3" Type="ActivityTarget" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Events" Member="Events">
+    <Type Name="Event">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Subject" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="StartOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AllDay" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Label" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RecurrenceInfoXml" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ReminderInfoXml" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="RemindInSeconds" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AlarmTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsPostponed" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Discriminator" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="Owner_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RecurrencePattern_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Regarding_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Event_Event" Member="Events" ThisKey="ID" OtherKey="RecurrencePattern_ID" Type="Event" />
+      <Association Name="Event_Note" Member="Notes" ThisKey="ID" OtherKey="CRMActivity_ID" Type="Note" />
+      <Association Name="Event_ResourceEvent" Member="ResourceEvents" ThisKey="ID" OtherKey="Event_ID" Type="ResourceEvent" />
+      <Association Name="ActivityTarget_Event" Member="ActivityTarget" ThisKey="Regarding_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="Event_Event" Member="Event1" ThisKey="RecurrencePattern_ID" OtherKey="ID" Type="Event" IsForeignKey="true" />
+      <Association Name="User_Event" Member="User" ThisKey="Owner_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FileDatas" Member="FileDatas">
+    <Type Name="FileData">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Size" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FileName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Content" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="FileData_Note" Member="Notes" ThisKey="ID" OtherKey="Attachment_ID" Type="Note" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HCategories" Member="HCategories">
+    <Type Name="HCategory">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Image" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="Discriminator" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="Parent_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="HCategory_HCategory" Member="HCategories" ThisKey="ID" OtherKey="Parent_ID" Type="HCategory" />
+      <Association Name="HCategory_Product" Member="Products" ThisKey="ID" OtherKey="Category_ID" Type="Product" />
+      <Association Name="HCategory_HCategory" Member="HCategory1" ThisKey="Parent_ID" OtherKey="ID" Type="HCategory" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KpiDefinitions" Member="KpiDefinitions">
+    <Type Name="KpiDefinition">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="TargetObjectTypeFullName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Criteria" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Expression" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="GreenZone" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="RedZone" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="Compare" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="RangeName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="RangeToCompareName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MeasurementFrequency" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MeasurementMode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Direction" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ChangedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="SuppressedSeries" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="EnableCustomizeRepresentation" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="KpiDefinition_KpiInstance" Member="KpiInstances" ThisKey="ID" OtherKey="KpiDefinition_ID" Type="KpiInstance" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KpiHistoryItems" Member="KpiHistoryItems">
+    <Type Name="KpiHistoryItem">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RangeStart" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="RangeEnd" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="KpiInstance_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="KpiInstance_KpiHistoryItem" Member="KpiInstance" ThisKey="KpiInstance_ID" OtherKey="ID" Type="KpiInstance" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KpiInstanceKpiScorecards" Member="KpiInstanceKpiScorecards">
+    <Type Name="KpiInstanceKpiScorecard">
+      <Column Name="KpiInstance_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KpiScorecard_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="KpiInstance_KpiInstanceKpiScorecard" Member="KpiInstance" ThisKey="KpiInstance_ID" OtherKey="ID" Type="KpiInstance" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="KpiScorecard_KpiInstanceKpiScorecard" Member="KpiScorecard" ThisKey="KpiScorecard_ID" OtherKey="ID" Type="KpiScorecard" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KpiInstances" Member="KpiInstances">
+    <Type Name="KpiInstance">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ForceMeasurementDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Settings" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KpiDefinition_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="KpiInstance_KpiHistoryItem" Member="KpiHistoryItems" ThisKey="ID" OtherKey="KpiInstance_ID" Type="KpiHistoryItem" />
+      <Association Name="KpiInstance_KpiInstanceKpiScorecard" Member="KpiInstanceKpiScorecards" ThisKey="ID" OtherKey="KpiInstance_ID" Type="KpiInstanceKpiScorecard" />
+      <Association Name="KpiDefinition_KpiInstance" Member="KpiDefinition" ThisKey="KpiDefinition_ID" OtherKey="ID" Type="KpiDefinition" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KpiScorecards" Member="KpiScorecards">
+    <Type Name="KpiScorecard">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="KpiScorecard_KpiInstanceKpiScorecard" Member="KpiInstanceKpiScorecards" ThisKey="ID" OtherKey="KpiScorecard_ID" Type="KpiInstanceKpiScorecard" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LeadHistoryRecords" Member="LeadHistoryRecords">
+    <Type Name="LeadHistoryRecord">
+      <Column Name="LeadHistoryRecordID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SaleStage" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CRMLead_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ActivityTarget_LeadHistoryRecord" Member="ActivityTarget" ThisKey="CRMLead_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ModuleInfoes" Member="ModuleInfoes">
+    <Type Name="ModuleInfoe">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AssemblyFileName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsMain" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Notes" Member="Notes">
+    <Type Name="Note">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="Attachment_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMActivity_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMProduct_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMInvoice_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMQuote_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMLead_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMOrder_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMOpportunity_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMContact_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRMAccount_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ActivityTarget_Note" Member="ActivityTarget" ThisKey="CRMAccount_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_Note1" Member="ActivityTarget1" ThisKey="CRMContact_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_Note2" Member="ActivityTarget2" ThisKey="CRMInvoice_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_Note3" Member="ActivityTarget3" ThisKey="CRMLead_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_Note4" Member="ActivityTarget4" ThisKey="CRMOpportunity_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_Note5" Member="ActivityTarget5" ThisKey="CRMOrder_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="ActivityTarget_Note6" Member="ActivityTarget6" ThisKey="CRMQuote_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="Event_Note" Member="Event" ThisKey="CRMActivity_ID" OtherKey="ID" Type="Event" IsForeignKey="true" />
+      <Association Name="FileData_Note" Member="FileData" ThisKey="Attachment_ID" OtherKey="ID" Type="FileData" IsForeignKey="true" />
+      <Association Name="Product_Note" Member="Product" ThisKey="CRMProduct_ID" OtherKey="ID" Type="Product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.People" Member="Peoples">
+    <Type Name="People">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MartialStatus" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SpouseName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Anniversary" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="People_ActivityTarget" Member="ActivityTargets" ThisKey="ID" OtherKey="Person_ID" Type="ActivityTarget" />
+      <Association Name="People_User" Member="Users" ThisKey="ID" OtherKey="Person_ID" Type="User" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Products" Member="Products">
+    <Type Name="Product">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Discriminator" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="Category_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Product_Note" Member="Notes" ThisKey="ID" OtherKey="CRMProduct_ID" Type="Note" />
+      <Association Name="Product_SaleItem" Member="SaleItems" ThisKey="ID" OtherKey="Product_ID" Type="SaleItem" />
+      <Association Name="HCategory_Product" Member="HCategory" ThisKey="Category_ID" OtherKey="ID" Type="HCategory" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ReportDatas" Member="ReportDatas">
+    <Type Name="ReportData">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Content" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DataTypeName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsInplaceReport" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ReportName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ResourceEvents" Member="ResourceEvents">
+    <Type Name="ResourceEvent">
+      <Column Name="Resource_Key" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Event_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Event_ResourceEvent" Member="Event" ThisKey="Event_ID" OtherKey="ID" Type="Event" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Resource_ResourceEvent" Member="Resource" ThisKey="Resource_Key" OtherKey="Key" Type="Resource" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Resources" Member="Resources">
+    <Type Name="Resource">
+      <Column Name="[Key]" Member="Key" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Caption" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Color_Int" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Resource_ResourceEvent" Member="ResourceEvents" ThisKey="Key" OtherKey="Resource_Key" Type="ResourceEvent" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RoleRoles" Member="RoleRoles">
+    <Type Name="RoleRole">
+      <Column Name="Role_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Role_ID1" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Role_RoleRole" Member="Role" ThisKey="Role_ID" OtherKey="ID" Type="Role" IsForeignKey="true" />
+      <Association Name="Role_RoleRole1" Member="Role1" ThisKey="Role_ID1" OtherKey="ID" Type="Role" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Roles" Member="Roles">
+    <Type Name="Role">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsAdministrative" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditModel" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Discriminator" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Association Name="Role_RoleRole" Member="RoleRoles" ThisKey="ID" OtherKey="Role_ID" Type="RoleRole" />
+      <Association Name="Role_RoleRole1" Member="RoleRoles1" ThisKey="ID" OtherKey="Role_ID1" Type="RoleRole" />
+      <Association Name="Role_TypePermissionObject" Member="TypePermissionObjects" ThisKey="ID" OtherKey="Role_ID" Type="TypePermissionObject" />
+      <Association Name="Role_UserRole" Member="UserRoles" ThisKey="ID" OtherKey="Role_ID" Type="UserRole" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SaleItems" Member="SaleItems">
+    <Type Name="SaleItem">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Discount" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="Product_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SaleBase_ActivityTargetId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ActivityTarget_SaleItem" Member="ActivityTarget" ThisKey="SaleBase_ActivityTargetId" OtherKey="ActivityTargetId" Type="ActivityTarget" IsForeignKey="true" />
+      <Association Name="Product_SaleItem" Member="Product" ThisKey="Product_ID" OtherKey="ID" Type="Product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SecuritySystemMemberPermissionsObjects" Member="SecuritySystemMemberPermissionsObjects">
+    <Type Name="SecuritySystemMemberPermissionsObject">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Members" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Criteria" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AllowRead" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AllowWrite" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="EffectiveRead" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EffectiveWrite" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Owner_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TypePermissionObject_SecuritySystemMemberPermissionsObject" Member="TypePermissionObject" ThisKey="Owner_ID" OtherKey="ID" Type="TypePermissionObject" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SecuritySystemObjectPermissionsObjects" Member="SecuritySystemObjectPermissionsObjects">
+    <Type Name="SecuritySystemObjectPermissionsObject">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Criteria" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AllowRead" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AllowWrite" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AllowDelete" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AllowNavigate" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="EffectiveRead" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EffectiveWrite" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EffectiveDelete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EffectiveNavigate" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Owner_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TypePermissionObject_SecuritySystemObjectPermissionsObject" Member="TypePermissionObject" ThisKey="Owner_ID" OtherKey="ID" Type="TypePermissionObject" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TypePermissionObjects" Member="TypePermissionObjects">
+    <Type Name="TypePermissionObject">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AllowRead" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AllowWrite" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AllowCreate" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AllowDelete" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AllowNavigate" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="TargetTypeFullName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Role_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TypePermissionObject_SecuritySystemMemberPermissionsObject" Member="SecuritySystemMemberPermissionsObjects" ThisKey="ID" OtherKey="Owner_ID" Type="SecuritySystemMemberPermissionsObject" />
+      <Association Name="TypePermissionObject_SecuritySystemObjectPermissionsObject" Member="SecuritySystemObjectPermissionsObjects" ThisKey="ID" OtherKey="Owner_ID" Type="SecuritySystemObjectPermissionsObject" />
+      <Association Name="Role_TypePermissionObject" Member="Role" ThisKey="Role_ID" OtherKey="ID" Type="Role" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserRoles" Member="UserRoles">
+    <Type Name="UserRole">
+      <Column Name="User_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Role_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Role_UserRole" Member="Role" ThisKey="Role_ID" OtherKey="ID" Type="Role" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="User_UserRole" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+</Database>

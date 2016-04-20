@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2SDemo", "L2SDemo\L2SDemo.csproj", "{8D90D13F-BD70-4B9F-A01F-006E7053FFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2SDemoTestApp", "L2SDemoTestApp\L2SDemoTestApp.csproj", "{41502E44-6653-4230-9886-4D3E12DAFA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleOperationDemo", "SimpleOperationDemo\SimpleOperationDemo.csproj", "{BEDCDB51-C247-4289-9ACE-816E9EBAA2D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NwindOperationDemo", "NwindOperationDemo\NwindOperationDemo.csproj", "{40FD1FCE-EE0E-4D95-8A56-36F66DA83829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDataDemo", "SimpleDataDemo\SimpleDataDemo.csproj", "{F83207E8-7E72-4011-80E6-A5F6B7C50BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nwind", "Nwind\Nwind.csproj", "{8AD8893F-3F39-4354-84FD-B5DD54A57F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outlook", "Outlook\Outlook.csproj", "{84E56326-3D69-4001-9F46-A5FEB9ACDFB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D90D13F-BD70-4B9F-A01F-006E7053FFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D90D13F-BD70-4B9F-A01F-006E7053FFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D90D13F-BD70-4B9F-A01F-006E7053FFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D90D13F-BD70-4B9F-A01F-006E7053FFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41502E44-6653-4230-9886-4D3E12DAFA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41502E44-6653-4230-9886-4D3E12DAFA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41502E44-6653-4230-9886-4D3E12DAFA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41502E44-6653-4230-9886-4D3E12DAFA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDCDB51-C247-4289-9ACE-816E9EBAA2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDCDB51-C247-4289-9ACE-816E9EBAA2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDCDB51-C247-4289-9ACE-816E9EBAA2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDCDB51-C247-4289-9ACE-816E9EBAA2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FD1FCE-EE0E-4D95-8A56-36F66DA83829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FD1FCE-EE0E-4D95-8A56-36F66DA83829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FD1FCE-EE0E-4D95-8A56-36F66DA83829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FD1FCE-EE0E-4D95-8A56-36F66DA83829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83207E8-7E72-4011-80E6-A5F6B7C50BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83207E8-7E72-4011-80E6-A5F6B7C50BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83207E8-7E72-4011-80E6-A5F6B7C50BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83207E8-7E72-4011-80E6-A5F6B7C50BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD8893F-3F39-4354-84FD-B5DD54A57F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD8893F-3F39-4354-84FD-B5DD54A57F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD8893F-3F39-4354-84FD-B5DD54A57F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD8893F-3F39-4354-84FD-B5DD54A57F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E56326-3D69-4001-9F46-A5FEB9ACDFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E56326-3D69-4001-9F46-A5FEB9ACDFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E56326-3D69-4001-9F46-A5FEB9ACDFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E56326-3D69-4001-9F46-A5FEB9ACDFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
