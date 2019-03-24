@@ -66,7 +66,7 @@ Serialization/Reflection/Low level Assembly access
 ![SmartData](https://github.com/MRYingLEE/SmartData/blob/master/Format_001.png "Format")
 
 **SmartData: Why 3 report solutions are built-in?**
-![SmartData](https://github.com/MRYingLEE/SmartData/blob/master/Report.png "Report")
+![SmartData](https://github.com/MRYingLEE/SmartData/blob/master/Report.PNG "Report")
 
 **SmartData: Dashboard can be added by extension**
 ![SmartData](https://github.com/MRYingLEE/SmartData/blob/master/DashBoard.png "Dash Board")
