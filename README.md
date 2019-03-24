@@ -62,9 +62,24 @@ Serialization/Reflection/Low level Assembly access
 
 ## Youtube Demo
 ### Quick View to SmartData 1.0
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ho8gkX7a8EU
-" target="_blank"><img src="http://img.youtube.com/vi/ho8gkX7a8EU/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ho8gkX7a8EU/0.jpg)](http://www.youtube.com/watch?v=ho8gkX7a8EU)
+
+### SmartData UI: Synchronized Master-Detail Data Windows (Unique in market)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/OaTIctmwb00/0.jpg)](http://www.youtube.com/watch?v=OaTIctmwb00)
+
+### SmartData UI- Interactive Intelligence, Surf data just like surf internet
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/QVedqlyByiw/0.jpg)](http://www.youtube.com/watch?v=QVedqlyByiw)
+
+### SmartData Data- Excel like Analysis
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Lm1sC2MrkYU/0.jpg)](http://www.youtube.com/watch?v=Lm1sC2MrkYU)
+
+### Pivot and Chart
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/71RIQkHFS3Q/0.jpg)](http://www.youtube.com/watch?v=71RIQkHFS3Q)
+
+### OData
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/x6yjFRN5jvg/0.jpg)](http://www.youtube.com/watch?v=x6yjFRN5jvg)
+
+### Data Operation Extensions by Developer, even effective immediately at runtime
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/PvO8ZwT_rT0/0.jpg)](http://www.youtube.com/watch?v=PvO8ZwT_rT0)
+
+
