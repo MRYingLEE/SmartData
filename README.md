@@ -65,3 +65,6 @@ Serialization/Reflection/Low level Assembly access
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=ho8gkX7a8EU
 " target="_blank"><img src="http://img.youtube.com/vi/ho8gkX7a8EU/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ho8gkX7a8EU/0.jpg)](http://www.youtube.com/watch?v=ho8gkX7a8EU)
