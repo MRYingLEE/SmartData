@@ -8,7 +8,7 @@ Dynamic LINQ style data/class access(multi tables could be involved driven by en
 Dynamic Matching between Data and UI Templates
 Dynamic Switching UI Templates
 Dynamic Defining/Improving UI Templates
-[SmartData]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/300px-Rubik%27s_cube.svg "SmartData" 
+![SmartData](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/300px-Rubik%27s_cube.svg "SmartData")
 
 ### Base Module
 
