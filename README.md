@@ -61,6 +61,20 @@ All kinds of inplace editors
 LINQ/ORM
 Serialization/Reflection/Low level Assembly access
 
+## Some Screen Captures
+**SmartData: More Excel like features are coming in Version 1.2**
+![SmartData](https://github.com/MRYingLEE/SmartData/blob/master/Format_001.png "Format")
+
+**SmartData: Why 3 report solutions are built-in?**
+![SmartData](https://github.com/MRYingLEE/SmartData/blob/master/Report.png "Report")
+
+**SmartData: Dashboard can be added by extension**
+![SmartData](https://github.com/MRYingLEE/SmartData/blob/master/DashBoard.png "Dash Board")
+
+**SmartData: How does SmartData face data model change?**
+![SmartData](https://github.com/MRYingLEE/SmartData/blob/master/NotFound.png "Not Found")
+
+
 ## Highly Used Package
 Devexpress .Net Package was subscribed for a few years. The purchase log can be found in the image file: Devexpress Purchase Log.jpg.
 
