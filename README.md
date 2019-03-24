@@ -64,7 +64,7 @@ Serialization/Reflection/Low level Assembly access
 ## Highly Used Package
 Devexpress .Net Package was subscribed for a few years. The purchase log can be found in the image file: Devexpress Purchase Log.jpg.
 
-![Devexpress Purchase Log](Devexpress Purchase Log.jpg "Devexpress Purchase Log")
+![Devexpress Purchase Log](https://github.com/MRYingLEE/SmartData/blob/master/Devexpress%20Purchase%20Log.JPG "Devexpress Purchase Log")
 
 
 ## Youtube Demo
