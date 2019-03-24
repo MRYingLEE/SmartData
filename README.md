@@ -56,10 +56,16 @@ All kinds of inplace editors
 2. Excel like Data Binding defining
 3. Templates Management (Save/Restore and dynamic matching)
 
-## Highly Used C# Features 
+### Highly Used C# Features 
 
 LINQ/ORM
 Serialization/Reflection/Low level Assembly access
+
+## Highly Used Package
+Devexpress .Net Package was subscribed for a few years. The purchase log can be found in the image file: Devexpress Purchase Log.jpg.
+
+![Devexpress Purchase Log](Devexpress Purchase Log.jpg "Devexpress Purchase Log")
+
 
 ## Youtube Demo
 ### Quick View to SmartData 1.0
