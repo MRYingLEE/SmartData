@@ -60,3 +60,8 @@ All kinds of inplace editors
 LINQ/ORM
 Serialization/Reflection/Low level Assembly access
 
+## Youtube Demo
+### Quick View to SmartData 1.0
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ho8gkX7a8EU
+" target="_blank"><img src="http://img.youtube.com/vi/ho8gkX7a8EU/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
